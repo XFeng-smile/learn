@@ -1,0 +1,24 @@
+# 1. 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 2. 依赖目录
+node_modules/
+venv/
+__pycache__/
+
+# 3. 构建产物
+/dist
+/build
+
+# 4. 环境变量与密钥（非常重要！）
+.env
+*.pem
+config/secret.yml
+
+# 5. 日志
+logs/
+*.log
+
+# 6. 特例：不忽略重要的示例配置
+!.env.example
